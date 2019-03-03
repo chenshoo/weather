@@ -1,10 +1,15 @@
 import {weather} from "./routes/weather";
+import {CrowdedPlaces} from "./routes/crowded-places";
+
+import * as places from "./places.json";
 let express = require("express");
 let bodyParser = require('body-parser');
 let cors = require('cors');
 let app = express();
 
 let weatherRoute = new weather();
+let crowdedPlaces = new CrowdedPlaces();
+
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
@@ -24,6 +29,14 @@ app.get('/weather', function (req: any, res: any) {
     let response = weatherRoute.handleWeather(lon, lat);
     console.log("severity");
     res.send({"severity": response});
+});
+
+app.get('/crowdedPlaces', function (req:any, res: any) {
+    let result = crowdedPlaces.getSeverityOfLocation(req.query.lat,req.query.lng, req.query.triggeringPlacesTypes.split(','));
+    res.send({"severity": result});
+});
+app.get('/placesTypes', function (req:any, res: any) {
+    res.send(places);
 });
 
 app.listen(3000, () => {

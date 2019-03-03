@@ -1,11 +1,17 @@
-export type ObjectNumber = {[key: string]: number};
+export type ObjectNumber = { [key: string]: number };
 
 export const preferencesFileds: any = {
-    families: [{"Thunderstorm":"סופות רעמים"}, {"Rain":"גשם"}, {"Snow":"שלג"}, {"Atmosphere":"מעורפל"}, {"Cloudy":"מעונן"}, {"Hot":"חום"}, {"Cold":"קור"}],
+    families: [{"type": "Thunderstorm", "title": "סופות רעמים"},
+        {"type": "Rain", "title": "גשם"},
+        {"type": "Snow", "title": "שלג"},
+        {"type": "Atmosphere", "title": "מעורפל"},
+        {"type": "Cloudy", "title": "מעונן"},
+        {"type": "Hot", "title": "חום"},
+        {"type": "Cold", "title": "קור"}],
     range: {"min": 0, "max": 5}
 };
 
-export function findFamily(idWeather : number) : string {
+export function findFamily(idWeather: number): string {
     let prefix: string;
     prefix = idWeather.toString()[0];
 

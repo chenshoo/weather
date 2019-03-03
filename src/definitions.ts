@@ -1,7 +1,7 @@
 export type ObjectNumber = {[key: string]: number};
 
 export const preferencesFileds: any = {
-    families: ["Thunderstorm", "Rain", "Snow", "Atmosphere", "Cloudy", "Hot", "Cold"],
+    families: [{"Thunderstorm":"סופות רעמים"}, {"Rain":"גשם"}, {"Snow":"שלג"}, {"Atmosphere":"מעורפל"}, {"Cloudy":"מעונן"}, {"Hot":"חום"}, {"Cold":"קור"}],
     range: {"min": 0, "max": 5}
 };
 

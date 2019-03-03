@@ -58,14 +58,13 @@ export class weather {
         let tempWeight: number = 0;
         if (temp <= lowTemp) {
             tempWeight = preferences["Cold"];
-        } else {
-            if (temp > highTemp) {
-                tempWeight = preferences["Hot"];
-            }
+        } else if (temp > highTemp) {
+            tempWeight = preferences["Hot"];
         }
 
         // calculate total status
-        let status: number = weatherWeight + tempWeight;
+        let normalizeNumber = 0.67;
+        let status: number = (weatherWeight + tempWeight) * normalizeNumber;
         if (status > maximumSeverity) {
             status = maximumSeverity;
         }

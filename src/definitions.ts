@@ -1,4 +1,3 @@
-export type ObjectNumber = { [key: string]: number };
 
 export const preferencesFileds: any = {
     families: [{"type": "Thunderstorm", "title": "סופות רעמים"},

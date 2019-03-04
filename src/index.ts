@@ -32,7 +32,7 @@ app.get('/weather', function (req: any, res: any) {
 });
 
 app.get('/crowdedPlaces', function (req:any, res: any) {
-    let result = crowdedPlaces.getSeverityOfLocation(req.query.lat,req.query.lng, req.query.triggeringPlacesTypes.split(','));
+    let result = crowdedPlaces.getSeverityOfLocation(req.query.lat,req.query.lon, req.query.triggeringPlacesTypes.split(','));
     res.send({"severity": result});
 });
 app.get('/placesTypes', function (req:any, res: any) {

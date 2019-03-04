@@ -3,8 +3,8 @@ const apiKey: string = 'AIzaSyAxm42yuheNNx0znh7x4qAExlu5MMsnpPY';
 const radius: number = 50;
 
 export class CrowdedPlaces {
-    getSeverityOfLocation(lat: number, lng: number, triggeringPlacesTypes: Array<String>): number {
-        let requestString = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${lat},${lng}&radius=${radius}&key=${apiKey}`;
+    getSeverityOfLocation(lat: number, lon: number, triggeringPlacesTypes: Array<String>): number {
+        let requestString = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${lat},${lon}&radius=${radius}&key=${apiKey}`;
         let result = this.httpGet(requestString);
         let triggeringPlacesCounter = 0;
         result.results.map(function(x: any) {

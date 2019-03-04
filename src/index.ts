@@ -1,5 +1,7 @@
 import {weather} from "./routes/weather";
 import {CrowdedPlaces} from "./routes/crowded-places";
+import {repository} from "./dal/repository";
+
 
 import * as places from "./places.json";
 let express = require("express");
@@ -9,6 +11,8 @@ let app = express();
 
 let weatherRoute = new weather();
 let crowdedPlaces = new CrowdedPlaces();
+let dalUser = new repository();
+
 
 app.use(cors());
 app.use(bodyParser.json());

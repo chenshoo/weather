@@ -1,4 +1,4 @@
-[
+{ "places": [
   {"type": "airport", "title": "נמל תעופה"},
   {"type": "amusement_park", "title": "פארק שעשועים"},
   {"type": "aquarium", "title": "אקווריום"},
@@ -32,4 +32,4 @@
   {"type": "train_station", "title": "תחנת רכבת"},
   {"type": "zoo", "title": "גן חיות"},
   {"type": "store", "title": "חנות"}
-]
+]}

@@ -9,8 +9,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.get('/locationData', async function (req: any, res: any) {
-    const apiKey: string = 'AIzaSyAxm42yuheNNx0znh7x4qAExlu5MMsnpPY';
-    await res.send({"locationData": await LocationInformation.getLocationData(apiKey, req.query.lat, req.query.lng, 100)});
+    await res.send({"locationData": await LocationInformation.getLocationData(req.query.apiKey, req.query.lat, req.query.lng, 100)});
 });
 
 app.listen(3000, () => {

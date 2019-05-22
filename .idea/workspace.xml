@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="942bd782-6004-4ed9-8e78-8c5964a8421d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/routes/location-address.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/location-data.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/location-information.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/places-near-by.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/definitions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dal/repository.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/crowded-places.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/location-utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/location-utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/time-outside-the-house.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/times-without-movement.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/weather.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/weather.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,23 +18,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/places-near-by.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="141">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.ts">
+        <entry file="file://$PROJECT_DIR$/src/routes/location-address.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+            <state relative-caret-position="102">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -116,7 +111,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/calculator.ts" />
         <option value="$PROJECT_DIR$/dal/repository.ts" />
-        <option value="$PROJECT_DIR$/src/dal/repository.ts" />
         <option value="$PROJECT_DIR$/src/routes/time-outside-the-house.ts" />
         <option value="$PROJECT_DIR$/src/routes/times-without-movement.ts" />
         <option value="$PROJECT_DIR$/src/routes/location-info.ts" />
@@ -128,9 +122,10 @@
         <option value="$PROJECT_DIR$/src/routes/location-address.ts" />
         <option value="$PROJECT_DIR$/lib/routes/weather.js" />
         <option value="$PROJECT_DIR$/src/routes/weather.ts" />
-        <option value="$PROJECT_DIR$/src/index.ts" />
         <option value="$PROJECT_DIR$/src/routes/location-information.ts" />
         <option value="$PROJECT_DIR$/src/routes/places-near-by.ts" />
+        <option value="$PROJECT_DIR$/src/dal/repository.ts" />
+        <option value="$PROJECT_DIR$/src/index.ts" />
       </list>
     </option>
   </component>
@@ -225,7 +220,7 @@
       <workItem from="1558509625024" duration="1768000" />
       <workItem from="1558511434603" duration="1768000" />
       <workItem from="1558513262783" duration="1768000" />
-      <workItem from="1558515082940" duration="281000" />
+      <workItem from="1558515082940" duration="1769000" />
     </task>
     <task id="LOCAL-00001" summary="create new project">
       <created>1551612902644</created>
@@ -269,11 +264,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551676901709</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="create new project">
+      <created>1558515469153</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558515469153</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66034000" />
+    <option name="totallyTimeSpent" value="67522000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -292,6 +294,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49966952" weight="0.3286119" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3286119" />
@@ -301,10 +304,10 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49966952" weight="0.3286119" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.40651557" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49966952" visible="true" weight="0.40651557" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50033045" side_tool="true" visible="true" weight="0.40651557" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -362,13 +365,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/indexx.ts" />
     <entry file="file://$PROJECT_DIR$/lib/routes/time-outside-the-house.js" />
-    <entry file="file://$PROJECT_DIR$/src/dal/repository.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/body-parser/lib/types/json.js" />
     <entry file="file://$PROJECT_DIR$/src/routes/times-without-movement.ts" />
     <entry file="file://$PROJECT_DIR$/src/routes/time-outside-the-house.ts" />
@@ -404,13 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/location-address.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -420,18 +409,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/places-near-by.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        <state relative-caret-position="141">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -449,6 +428,34 @@
           <folding>
             <element signature="e#0#46#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dal/repository.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/location-address.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="67" />
         </state>
       </provider>
     </entry>

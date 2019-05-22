@@ -4,8 +4,9 @@
   "description": "Calculate weather statistics",
   "main": "src/index.ts",
   "dependencies": {
-    "@types/node": "^11.10.4",
+    "@types/node": "^11.13.11",
     "body-parser": "^1.18.3",
+    "busy-hours": "0.0.5",
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "geo-distance": "^0.2.0",
